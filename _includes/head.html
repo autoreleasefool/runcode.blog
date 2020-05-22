@@ -1,0 +1,24 @@
+{% include base.html %}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google" content="nositelinkssearchbox" />
+  <meta name="keywords" content="mobile, ios, android, react native, swift, kotlin, typescript, python, design, blog, ottawa, ontario, canada" />
+  <meta name="author" content="Joseph Roque" />
+
+  <link rel="stylesheet" href="{{ base }}/css/main.css">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% if page.loadjs %}
+  <!-- <script type="text/javascript" src="{{ base }}/js/script.js" ></script> -->
+  {% endif %}
+
+  <!-- FONTS BEGIN -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Quicksand" rel="stylesheet">
+  <!-- FONTS END -->
+</head>
