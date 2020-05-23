@@ -8,16 +8,16 @@
 
 /* Ghost components */
 @import "components/header.css";
-/* // @import "components/footer.css";
-// @import "components/profile.css";
-// @import "components/error.css";
+@import "components/profile.css";
+/* // @import "components/footer.css"; */
+/* // @import "components/error.css";
 // @import "components/pagination.css";
 // @import "components/content.css";
 // @import "components/members.css"; */
 
 /* Global components */
-/* // @import "components/forms.css";
-// @import "components/buttons.css"; */
+/* // @import "components/forms.css"; */
+@import "components/buttons.css";
 
 
 /* Main

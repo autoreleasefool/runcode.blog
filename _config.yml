@@ -19,10 +19,18 @@ description: >- # this means to ignore newlines until "baseurl:"
   My daily routine. A blog by Joseph Roque.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://runcoderuncode.com" # the base hostname & protocol for your site, e.g. http://example.com
-personal_website: "https://josephroque.dev"
-twitter_username: josephroquedev
-github_username:  josephroquedev
-linkedin_username: josephroquedev
+
+author:
+  website: "https://josephroque.dev"
+  name: Joseph Roque
+  image: /assets/images/profile.jpeg
+  bio: >-
+    👋 I’m a mobile developer living in Ottawa, working at Shopify.
+    From personal projects, to running reports, and various explorations,
+    there’s no guidelines for what sort of content you’ll find here.
+  twitter: josephroquedev
+  github: josephroquedev
+  linkedin: josephroquedev
 
 # Build settings
 markdown: kramdown

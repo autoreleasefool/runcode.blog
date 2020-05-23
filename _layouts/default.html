@@ -3,15 +3,28 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="body">
 
-    {% include header.html current_page='home' %}
+    <div class="viewport">
+      {% include header.html current_page='home' %}
 
-    <div class='content'>
-      {{ content }}
+      <div class="main-wrapper">
+        <div class="main-container main-left">
+          {% include profile.html %}
+        </div>
+
+        <div class="main-container">
+          <main class="main">
+            {{ content }}
+          </main>
+        </div>
+
+        <div class="main-container main-right"></div>
+      </div>
+
+      {% include footer.html %}
     </div>
 
-    {% include footer.html %}
-
+    <script src="{{ base }}/assets/js/main.js"></script>
   </body>
 </html>
