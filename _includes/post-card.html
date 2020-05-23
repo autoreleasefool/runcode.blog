@@ -1,0 +1,36 @@
+{% for data_tag in site.data.tags %}
+  {% if data_tag.slug == include.post.tags[0] %}
+    {% assign primary_tag = data_tag %}
+  {% endif %}
+{% endfor %}
+
+<article class="post-card {% if include.post.feature_image %}with-image{% else %}no-image{% endif %}">
+  <div class="post-card-content">
+    <a class="post-card-link" href="{{ include.post.url }}">
+      <div class="post-card-header">
+        {% if include.post.feature_image %}
+          <img class="post-card-image" src="{{ include.post.feature_image }}" alt="{{ include.post.title }}" />
+        {% endif %}
+        <div class="post-card-title-wrapper {% if include.post.feature_image %}post-card-image-title-wrapper{% endif %}">
+          <h2 class="post-card-title {% if include.post.feature_image %}post-card-image-title{% endif %} header">{{ include.post.title }}</h2>
+        </div>
+      </div>
+
+      <div class="post-card-excerpt">
+        {{ include.post.excerpt }}
+      </div>
+    </a>
+    <div class="post-card-details">
+      <div class="post-card-detail post-card-date">
+        <img class="icon" src="{{ base }}/assets/images/icons/calendar.png" />
+        <p>{{ include.post.date | date: "%Y/%-M/%-d" }}</p>
+      </div>
+
+      <div class="post-card-detail post-card-tags">
+        <img class="icon" src="{{ base }}/assets/images/icons/tag.png" />
+        <a href="{{ site.url }}/tags/{{ primary_tag.slug }}">{{ primary_tag.name }}</a>
+      </div>
+    </div>
+    <div class="post-card-highlight"></div>
+  </div>
+</article>

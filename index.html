@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="lw-page">
+  <div class="post-feed">
+    {% if site.categories['featured'] %}
+      <h1 class="post-feed-section-header text-header">Featured</h1>
+      <div class="separator post-feed-section-separator"></div>
+      {% for post in site.categories['featured'] %}
+        {% include post-card.html post=post %}
+      {% endfor %}
+
+      <h1 class="post-feed-section-header post-feed-section-header-spaced text-header">Most Recent</h1>
+      <div class="separator post-feed-section-separator"></div>
+    {% endif %}
+
+    {% for post in site.posts %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+</div>
