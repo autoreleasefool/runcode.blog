@@ -8,8 +8,8 @@
 
 /* Ghost components */
 @import "components/header.css";
+@import "components/footer.css";
 @import "components/profile.css";
-/* // @import "components/footer.css"; */
 /* // @import "components/error.css";
 // @import "components/pagination.css";
 // @import "components/content.css";

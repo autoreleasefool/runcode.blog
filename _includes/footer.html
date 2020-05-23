@@ -1,0 +1,22 @@
+<footer class="foot">
+  <div class="separator"></div>
+
+  <div class="foot-author-details">
+    <div class="profile-author">
+      <img class="profile-image" src="{{ site.author.image }}" />
+      <p class="profile-bio">{{ site.author.bio }}</p>
+      <div class="profile-links">
+        <a href="{{ site.author.website }}"><img class="icon" src="{{ base }}/assets/images/icons/avatar.png" /></a>
+        <a href="https://twitter.com/{{ site.author.twitter}}"><img class="icon" src="{{ base }}/assets/images/icons/twitter.png" /></a>
+        <a href="https://github.com/{{ site.author.github }}"><img class="icon" src="{{ base }}/assets/images/icons/github.png" /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot-site-info">
+    <p>&copy; {{ page.date | date: "%Y" }} <a href="{{ site.url }}">{{ site.title }}</a></p>
+    <p><a href="https://www.streamlineicons.com/">Free Icons from Streamline Icons Pack</a></p>
+    <p>Published with <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a></p>
+  </div>
+
+</footer>
