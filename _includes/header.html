@@ -1,0 +1,47 @@
+<header id="header" class="head">
+  <div class="head-left"></div>
+  <div class="head-container">
+    <div class="head-brand">
+      <a href="{{ site.url }}"><h1 class="head-title">{{ site.title }}</h1></a>
+      <h2 class="head-description">{{ site.description }}</h2>
+    </div>
+
+    <div class="head-nav-container">
+      <div class="head-nav">
+        {% include nav.html current_page=include.current_page %}
+      </div>
+      <div class="head-social">
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter" target="_blank" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/twitter.png" /></a>
+        <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/github.png" /></a>
+        <a href="{{ site.url }}/feed.xml" title="RSS" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/rss.png" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="head-right"></div>
+</header>
+
+<div class="banner">
+  <div class="banner-container">
+    <div class="banner-brand">
+      <a href="{{ site.url }}"><h1 class="banner-title">{{ site.title }}</h1></a>
+    </div>
+
+    <div class="banner-separator"></div>
+
+    <div class="banner-nav-container">
+      <div class="banner-nav">
+        {% include nav.html current_page=include.current_page %}
+      </div>
+    </div>
+
+    <div class="banner-nav-container banner-nav-container-social">
+      <div class="banner-separator"></div>
+
+      <div class="banner-social">
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter" target="_blank" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/twitter.png" /></a>
+        <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/github.png" /></a>
+        <a href="{{ site.url }}/feed.xml" title="RSS" rel="noopener"><img class="icon" src="{{ base }}/assets/images/icons/rss.png" /></a>
+      </div>
+    </div>
+  </div>
+</div>
