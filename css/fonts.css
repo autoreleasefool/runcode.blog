@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap');
+
+@font-face {
+    font-family: 'CascadiaCode';
+    src: url('/assets/fonts/CascadiaCode.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('/assets/fonts/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('/assets/fonts/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('/assets/fonts/SourceSansPro-It.otf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SourceSans';
+    src: url('/assets/fonts/SourceSansPro-BoldIt.otf');
+    font-weight: bold;
+    font-style: italic;
+}
