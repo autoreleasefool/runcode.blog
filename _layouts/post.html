@@ -19,9 +19,10 @@ layout: default
       <img class="icon" src="/assets/images/icons/tags.png" />
       <div class="post-tags-inner">
         {% for tag in page.tags %}
+          {% if forloop.last == false %}{% assign has_comma = true %}{% else %}{% assign has_comma = false %}{% endif %}
           {% for data_tag in site.data.tags %}
             {% if data_tag.slug == tag %}
-              <a href="{{ site.url }}/tags/{{ data_tag.slug }}">{{ data_tag.name }}</a>{% if forloop.last == false %}, {% endif %}
+              <a href="{{ site.url }}/tags/{{ data_tag.slug }}">{{ data_tag.name }}</a>{% if has_comma %}, {% endif %}
             {% endif %}
           {% endfor %}
         {% endfor %}

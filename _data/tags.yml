@@ -1,2 +1,6 @@
-- slug: welcome
-  name: Welcome
+- name: Android
+  slug: android
+- name: Bowling Companion
+  slug: bowling-companion
+- name: Conference
+  slug: conference
