@@ -1,0 +1,49 @@
+---
+layout: default
+permalink: /tags
+---
+
+<div class="page tags">
+  <h1 class="post-feed-section-header text-header">Tags</h1>
+  <div class="separator post-feed-section-separator"></div>
+
+  <div class="tag-feed">
+
+    {% for tag in site.data.tags %}
+      {% assign total_posts = site.tags[tag.slug].size %}
+      {% if total_posts == 1 %}
+        {% assign posts_plural = 'post' %}
+      {% else %}
+        {% assign posts_plural = 'posts' %}
+      {% endif %}
+
+      {% if total_posts == 0 %}
+        {% assign total_posts_string = 'No' %}
+      {% else %}
+        {% assign total_posts_string = total_posts %}
+      {% endif %}
+
+      <figure class="kg-card kg-bookmark-card">
+        <a class="kg-bookmark-container" href="/tags/{{ tag.slug }}">
+          <div class="kg-bookmark-content">
+            <div class="kg-bookmark-title">{{ tag.name }}</div>
+            <div class="kg-bookmark-description">{{ total_posts_string }} {{ posts_plural }}</div>
+            {% if tag.description %}
+              <div class="kg-bookmark-description">{{ tag.description }}</div>
+            {% endif %}
+            <div class="kg-bookmark-metadata">
+              <img class="kg-bookmark-icon" src="/assets/images/icons/avatar.png"> <!-- TODO: replace with favicon -->
+              <span class="kg-bookmark-publisher">#{{ tag.name }}</span>
+            </div>
+          </div>
+          <div class="kg-bookmark-thumbnail">
+            {% if tag.feature_image %}
+              <img src="{{ tag.feature_image }}">
+            {% endif %}
+          </div>
+        </a>
+      </figure>
+    {% endfor %}
+  </div>
+
+</div>

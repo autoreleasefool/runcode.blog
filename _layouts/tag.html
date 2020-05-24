@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% for data_tag in site.data.tags %}
+  {% if data_tag.slug == page.tag %}
+    {% assign tag = data_tag %}
+  {% endif %}
+{% endfor %}
+
+{% assign total_posts = site.tags[tag.slug].size %}
+{% if total_posts == 1 %}
+  {% assign posts_plural = 'post' %}
+{% else %}
+  {% assign posts_plural = 'posts' %}
+{% endif %}
+
+<div class="page tag">
+  <header class="tag-head">
+    <h1 class="post-feed-section-header text-header"># {{ tag.name }}</h1>
+
+    <p class="tag-description">
+      {% if tag.description %}
+        {{ tag.description }}
+      {% else %}
+        {{ total_posts }} {{ posts_plural }} about <span class="tag-name">{{ tag.name }}</span>. Read below or browse <a href="/tags">other tags</a>.
+      {% endif %}
+    </p>
+
+    <div class="separator post-feed-section-separator"></div>
+  </header>
+
+  <div class="post-feed">
+    {% for post in site.tags[tag.slug] %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+</div>

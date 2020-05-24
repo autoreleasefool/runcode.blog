@@ -1240,6 +1240,135 @@ figure.image-card figcaption {
   }
 }
 
+/* Bookmark Card
+/* ---------------------------------------------------------- */
+
+.kg-bookmark-container {
+  --content-padding: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  color: var(--color-text-primary);
+  border: 1pt var(--color-border-card) solid;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  margin-bottom: var(--content-padding);
+  max-height: 150px;
+}
+
+.kg-bookmark-container:hover {
+  background-color: var(--color-background-card-hover);
+  border-color: var(--color-text-link-hover);
+}
+
+.kg-bookmark-container img {
+  margin-bottom: 0;
+}
+
+.kg-bookmark-content {
+  flex: 2;
+  align-self: center;
+  padding: var(--content-padding);
+  min-width: 0;
+}
+
+.kg-bookmark-thumbnail {
+  max-width: 150px;
+}
+
+.kg-bookmark-thumbnail img {
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.kg-bookmark-title {
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.kg-bookmark-description {
+  color: var(--color-text-secondary);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.kg-bookmark-metadata {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+.kg-bookmark-publisher {
+  color: var(--color-text-secondary);
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.kg-bookmark-card:hover .kg-bookmark-publisher, .kg-bookmark-card:hover .kg-bookmark-description {
+  color: var(--color-text-primary);
+}
+
+img.kg-bookmark-icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 1rem 0 0;
+}
+
+@media(max-width: 950px) {
+  .kg-bookmark-card {
+    padding: 0 var(--content-padding);
+  }
+
+  .kg-bookmark-container {
+    flex-direction: column-reverse;
+    max-height: none;
+  }
+
+  .kg-bookmark-content {
+    flex: none;
+    padding: var(--content-padding);
+    align-self: flex-start;
+  }
+
+  img.kg-bookmark-icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 1rem 0 0;
+  }
+
+  .kg-bookmark-title, .kg-bookmark-description {
+    margin-bottom: 0.5rem;
+  }
+
+  .kg-bookmark-thumbnail {
+    max-width: none;
+    align-items: center;
+  }
+
+  .kg-bookmark-thumbnail img {
+    max-height: 150px;
+    width: 100%;
+  }
+}
+
 /* Error - 404
 /* ---------------------------------------------------------- */
 
