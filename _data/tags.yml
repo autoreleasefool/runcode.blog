@@ -2,5 +2,11 @@
   slug: android
 - name: Bowling Companion
   slug: bowling-companion
+- name: Competitipn
+  slug: competition
 - name: Conference
   slug: conference
+- name: iOS
+  slug: ios
+- name: Security
+  slug: security
