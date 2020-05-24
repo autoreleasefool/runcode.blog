@@ -9,19 +9,19 @@ layout: default
     <div class="post-details">
       <p class="item">
         <a href="{{ page.author.website | default: site.author.website }}" class="item">
-          <img class="icon" src="{{ base }}/assets/images/icons/avatar.png" /> {{ page.author.name | default: site.author.name }}
+          <img class="icon" src="/assets/images/icons/avatar.png" /> {{ page.author.name | default: site.author.name }}
         </a>
       </p>
-      <p class="item"><img class="icon" src="{{ base }}/assets/images/icons/calendar.png" /> {{ page.date | date: "%Y/%-M/%-d" }}</p>
+      <p class="item"><img class="icon" src="/assets/images/icons/calendar.png" /> {{ page.date | date: "%Y/%-M/%-d" }}</p>
     </div>
 
     <div class="post-tags">
-      <img class="icon" src="{{ base }}/assets/images/icons/tags.png" />
+      <img class="icon" src="/assets/images/icons/tags.png" />
       <div class="post-tags-inner">
         {% for tag in page.tags %}
           {% for data_tag in site.data.tags %}
             {% if data_tag.slug == tag %}
-              {{ data_tag.name }}{% if forloop.last == false %}, {% endif %}
+              <a href="{{ site.url }}/tags/{{ data_tag.slug }}">{{ data_tag.name }}</a>{% if forloop.last == false %}, {% endif %}
             {% endif %}
           {% endfor %}
         {% endfor %}
