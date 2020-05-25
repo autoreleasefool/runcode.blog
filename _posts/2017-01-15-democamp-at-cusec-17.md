@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /post/democamp-at-cusec
+permalink: /posts/democamp-at-cusec
 title: "DemoCamp at CUSEC '17"
 date: 2017-01-15 00:00:00 +0000
 tags: conference android bowling-companion
