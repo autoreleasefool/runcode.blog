@@ -1,5 +1,11 @@
+{% if page.id == 'tags' or page.layout == 'tag' %}
+  {% assign is_tags = true %}
+{% elsif page.id == 'home' %}
+  {% assign is_home = true %}
+{% endif %}
+
 <ul class="nav" role="menu">
-  <li class="nav-home {% if include.current_page == 'home' %}nav-current{% endif %}" role="menuitem"><a href="{{ site.url }}">Home</a></li>
-  <li class="nav-tags {% if include.current_page == 'tags' %}nav-current{% endif %}" role="menuitem"><a href="{{ site.url }}/tags/">Tags</a></li>
-  <li class="nav-portfolio {% if include.current_page == 'portfolio' %}nav-current{% endif %}" role="menuitem"><a href="{{ site.author.website }}">Portfolio</a></li>
+  <li class="nav-home {% if is_home %}nav-current{% endif %}" role="menuitem"><a href="{{ site.url }}">Home</a></li>
+  <li class="nav-tags {% if is_tags %}nav-current{% endif %}" role="menuitem"><a href="{{ site.url }}/tags/">Tags</a></li>
+  <li class="nav-portfolio" role="menuitem"><a href="{{ site.author.website }}">Portfolio</a></li>
 </ul>
