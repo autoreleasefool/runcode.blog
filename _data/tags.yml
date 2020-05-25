@@ -1,12 +1,15 @@
 - name: Android
   slug: android
+  has_image: true
 - name: Bowling Companion
   slug: bowling-companion
-- name: Competitipn
+  has_image: true
+- name: Competition
   slug: competition
 - name: Conference
   slug: conference
 - name: iOS
   slug: ios
+  has_image: true
 - name: Security
   slug: security

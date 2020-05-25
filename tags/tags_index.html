@@ -37,8 +37,8 @@ permalink: /tags
             </div>
           </div>
           <div class="kg-bookmark-thumbnail">
-            {% if tag.feature_image %}
-              <img src="{{ tag.feature_image }}">
+            {% if tag.has_image %}
+              <img src="/assets/tags/{{ tag.slug }}.png">
             {% endif %}
           </div>
         </a>
