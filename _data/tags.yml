@@ -11,5 +11,12 @@
 - name: iOS
   slug: ios
   has_image: true
+- name: React Native
+  slug: react-native
+  has_image: true
 - name: Security
   slug: security
+- name: Travel
+  slug: travel
+- name: Work
+  slug: work
