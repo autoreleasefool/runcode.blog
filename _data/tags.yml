@@ -11,6 +11,8 @@
 - name: iOS
   slug: ios
   has_image: true
+- name: Personal
+  slug: personal
 - name: React Native
   slug: react-native
   has_image: true
