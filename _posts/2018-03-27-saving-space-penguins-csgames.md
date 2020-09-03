@@ -15,7 +15,7 @@ You can learn more about CS Games for yourself at their website, [csgames.org](h
 
 Last year I participated in 3 challenges, the Artificial Intelligence challenge, the Sports challenge, and the Mirego Mobile challenge. This year, I competed in 4, and was scheduled to compete in a challenge in every possible time slot. It was a crazy weekend, with little sleep, but I had an absolute bast.
 
-In the end, I took home 2nd place for the Mirego mobile challenge, and  placed X in AI, Y in Relay, and Z in security. You can read about each of the challenges I participated in below to learn more about the structure, my team’s approach, and how we stacked up against the competition.
+In the end, I took home 2nd place for the Mirego mobile challenge, and placed X in AI, Y in Relay, and Z in security. You can read about each of the challenges I participated in below to learn more about the structure, my team’s approach, and how we stacked up against the competition.
 
 ## Artificial Intelligence Challenge
 
@@ -55,10 +55,10 @@ This year, the challenge revolved around the theme of helping the penguins from 
 
 With this list of parts, each team had to alter the provided skeleton app to implement as many features as they could to help the penguins find the parts they needed to repair their ship. Their suggested list of features included:
 
-* Displaying the list of parts using reusable cells
-* Show pins on a map for the parts based on their location provided by the endpoint
-* Add filtering to the list of parts
-* Show the location of the parts through the camera in AR
+- Displaying the list of parts using reusable cells
+- Show pins on a map for the parts based on their location provided by the endpoint
+- Add filtering to the list of parts
+- Show the location of the parts through the camera in AR
 
 Over the course of 3 hours, my partner and I were able to accomplish the first 2 tasks nearly entirely — we had a list of parts displayed, you could select them and get descriptions, and the cells were complete reusable. We also got a map showing all of the locations for items. My partner was also a whiz with location, and we were able to display the distance between ourselves and all the items, as well as get the addresses of items when available.
 

@@ -16,6 +16,7 @@ It was actually right around this time last year that a recruiter reached out in
 Over the next few months we applied for a visa, I said my goodbyes, and on September 22nd, I landed in Stockholm. I arrived in the early afternoon, and, as I always do when I get to a new city,I headed out for a run.
 
 ![Strava map of my first run in Sweden](/assets/posts/8-months-in-stockholm/strava.jpg)
+
 <figcaption>Strava map of my first run in Sweden</figcaption>
 
 ## Shopify in Stockholm
@@ -47,7 +48,9 @@ Stockholm is a fantastic city for running. There are parks and trails all throug
 Here are some photos from my favourite places to run in Stockholm:
 
 #### Djurgården
+
 ![Djurgården](/assets/posts/8-months-in-stockholm/djurgarden.jpg)
+
 <figcaption>Djurgården</figcaption>
 
 Djurgården became one of my favourite places for daily runs in Stockholm. It’s a quiet place with little car traffic. One side of the island is rife with interesting and unique museums, such as the Vasamuseum, and the ABBA museum, while the other side is filled with open space and beautiful waterfront homes. There’s a path that runs around the perimeter of the island, as well as a number of trails that run through the middle.
@@ -55,6 +58,7 @@ Djurgården became one of my favourite places for daily runs in Stockholm. It’
 #### Hellasgården
 
 ![Hellasgården](/assets/posts/8-months-in-stockholm/hellasgarden.jpg)
+
 <figcaption>Hellasgården</figcaption>
 
 Hellasgården is just outside the core, easily accessible by transit, and felt remote and freeing. The bus drops off just outside a sauna and small café, and a number of trails branch out in every direction. My favourite was a ~5km trail that hugged the lake and gave some tough terrain, some beautiful views, and a good workout.
@@ -62,6 +66,7 @@ Hellasgården is just outside the core, easily accessible by transit, and felt r
 #### Tyresta
 
 ![Tyresta](/assets/posts/8-months-in-stockholm/tyresta.jpg)
+
 <figcaption>Tyresta</figcaption>
 
 I only ever made it to Tyresta park twice, one for a run and once for a hike, but it left an imprint. The park is at the city’s edge, and covers a huge expanse of land. I’ve entered from the northern side, as well as the eastern side, and both felt like totally separate parks, with tons of trails. Transit wasn’t quite as convenient, and I didn’t want to end up caught out there in the cold, so I was waiting until it warmed up before heading back (and I’ve ended up leaving before I ever could).
@@ -73,6 +78,7 @@ Another one of my hobbies is cross country skiing, and Sweden host one of the mo
 We opted for the 45km version, since we really weren’t sure if we were in the right shape for a 90km ski race. It ended up being an absolute blast. It was an incredibly cool experience skiing by headlamp, with hundreds of other skiers all around us, their lights bobbing up and down on the course ahead of us.
 
 ![Cam and I at Vasaloppet](/assets/posts/8-months-in-stockholm/vasaloppet.jpg)
+
 <figcaption>Cam and I at Vasaloppet</figcaption>
 
 Vasaloppet was certainly one of the highlights of my time in Sweden — so much so that I’m already signed up for next year’s event! I’ll be taking on the full 90km next year, which also means learning to classic ski by then.
