@@ -4,6 +4,7 @@ permalink: /posts/new-keyboard
 title: "New keyboard, who dis?"
 date: 2020-09-02 09:30:00 -0400
 feature_image: /assets/posts/new-keyboard/keyboard.jpg
+category: featured
 tags: personal
 ---
 

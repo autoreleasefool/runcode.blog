@@ -4,7 +4,6 @@ permalink: /posts/saving-space-penguins-csgames
 title: "Saving Space Penguins at CS Games 2018"
 date: 2018-03-27 00:00:00 +0000
 feature_image: /assets/posts/saving-space-penguins-csgames/csgames18.jpg
-category: featured
 tags: conference ios security competition
 ---
 

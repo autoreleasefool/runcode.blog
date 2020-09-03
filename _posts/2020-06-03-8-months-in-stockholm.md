@@ -4,7 +4,6 @@ permalink: /posts/8-months-in-stockholm
 title: "Returning to Canada after 8 months in Stockholm"
 date: 2020-06-03 07:30:00 -0400
 feature_image: /assets/posts/8-months-in-stockholm/stockholm.jpg
-category: featured
 tags: travel work ios react-native
 ---
 
