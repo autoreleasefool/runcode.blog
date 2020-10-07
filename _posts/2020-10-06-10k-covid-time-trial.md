@@ -14,7 +14,7 @@ tags: running race-report
 * **When?** Sept 26, 2020
 * **How far?** 10km
 * **Where?** Ottawa, Canada
-* **Strava activity:** https://www.strava.com/activities/4114461986
+* **Strava activity:** [https://www.strava.com/activities/4114461986](https://www.strava.com/activities/4114461986)
 * **Finish time:** 40:26
 
 ## Goals
