@@ -13,9 +13,13 @@
   has_image: true
 - name: Personal
   slug: personal
+- name: Race Report
+  slug: race-report
 - name: React Native
   slug: react-native
   has_image: true
+- name: Running
+  slug: running
 - name: Security
   slug: security
 - name: Travel
