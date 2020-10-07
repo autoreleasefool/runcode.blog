@@ -1180,6 +1180,22 @@ pre {
   padding-left: var(--content-padding);
 }
 
+.content table {
+  border-collapse: collapse;
+}
+
+.content table, td, th {
+  border: 1px solid var(--color-text-secondary);
+}
+
+.content th {
+  background-color: var(--color-background-code);
+}
+
+.content td {
+  padding: 0.5em 1em;
+}
+
 @media(max-width: 950px) {
   .content p,
   .content h1,
@@ -1189,7 +1205,8 @@ pre {
   .content h5,
   .content h6,
   .content blockquote,
-  .content ul {
+  .content ul,
+  .content table {
     margin: var(--content-padding);
   }
 
