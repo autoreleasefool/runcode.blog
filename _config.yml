@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Joseph Roque's blog
 email: blog@josephroque.ca
+headline: Run; Code; Run Code;
 description: >- # this means to ignore newlines until "baseurl:"
   My daily routine. A blog by Joseph Roque.
 baseurl: "" # the subpath of your site, e.g. /blog
