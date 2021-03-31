@@ -31,7 +31,7 @@ I think one of my favourite things about Shopify’s Stockholm office was how sm
 
 Remember when I mentioned that I had been hired to work on native components for the React Native Arrive app? Well, that was the original plan in May, but by the time I actually started in September, there had been a huge shift. Instead, there was going to be a [much heavier focus on React Native](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify), and I was going to have to start learning!
 
-Thankfully, I had already done some exploration of React Native on my own, through developing the [Campus Guide](https://github.com/josephroquedev/campus-guide) app, as well as a number of other small personal projects over the course of a couple years. I was no stranger to React Native, or TypeScript. Which meant onboarding onto my new team went much smoother than it otherwise might have!
+Thankfully, I had already done some exploration of React Native on my own, through developing the [Campus Guide](https://github.com/autoreleasefool/campus-guide) app, as well as a number of other small personal projects over the course of a couple years. I was no stranger to React Native, or TypeScript. Which meant onboarding onto my new team went much smoother than it otherwise might have!
 
 Over the next few months, our team would overhaul much of the architecture in the Arrive app, redesign the most used screens, and eventually rebrand it as [Shop app](https://shop.app/).
 

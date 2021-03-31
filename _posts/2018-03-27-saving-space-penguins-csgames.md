@@ -27,7 +27,7 @@ Overall, both teams from the University of Ottawa thought the event went really 
 
 In the end, we were pretty disappointed with our results. We thought we had written really impressive bots, and weren’t sure why our bot hadn’t made it into the top 4. It actually ended up placing 23rd out of 29 teams, which was not at all what we expected. But these things happen!
 
-If you want to see our bot, you can check out the source code [here!](https://github.com/josephroquedev/csgames18-ai)
+If you want to see our bot, you can check out the source code [here!](https://github.com/autoreleasefool/csgames18-ai)
 
 ## Relay Programming Challenge
 
@@ -68,7 +68,7 @@ Overall, we were really proud of our app! We ended up placing 2nd and were defin
 
 ![Trophy](/assets/posts/saving-space-penguins-csgames/trophy.jpg)
 
-If you want to see our 2nd place app, you can check it out [here!](https://github.com/josephroquedev/csgames18-mobile)
+If you want to see our 2nd place app, you can check it out [here!](https://github.com/autoreleasefool/csgames18-mobile)
 
 ## uOttawa’s results
 
