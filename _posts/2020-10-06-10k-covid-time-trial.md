@@ -4,39 +4,38 @@ permalink: /posts/10k-covid-time-trial
 title: "Race Report: 10K Covid Time Trial"
 date: 2020-10-06 21:00:00 -0400
 feature_image: /assets/posts/10k-covid-time-trial/covid-race.jpg
-category: featured
 tags: running race-report
 ---
 
 ## Race information
 
-* **What?** Covid 10K Time Trial
-* **When?** Sept 26, 2020
-* **How far?** 10km
-* **Where?** Ottawa, Canada
-* **Strava activity:** [https://www.strava.com/activities/4114461986](https://www.strava.com/activities/4114461986)
-* **Finish time:** 40:26
+- **What?** Covid 10K Time Trial
+- **When?** Sept 26, 2020
+- **How far?** 10km
+- **Where?** Ottawa, Canada
+- **Strava activity:** [https://www.strava.com/activities/4114461986](https://www.strava.com/activities/4114461986)
+- **Finish time:** 40:26
 
 ## Goals
 
-* **< 42:42 PR?** ✅
-* **< 41:00?** ✅
-* **< 40:00?** ❌
+- **< 42:42 PR?** ✅
+- **< 41:00?** ✅
+- **< 40:00?** ❌
 
 ## Splits
 
-| KM | Split |
-|----|-------|
-| 1  | 3:57  |
-| 2  | 4:02  |
-| 3  | 4:07  |
-| 4  | 4:03  |
-| 5  | 3:58  |
-| 6  | 4:05  |
-| 7  | 4:03  |
-| 8  | 4:05  |
-| 9  | 4:07  |
-| 10 | 3:55  |
+| KM  | Split |
+| --- | ----- |
+| 1   | 3:57  |
+| 2   | 4:02  |
+| 3   | 4:07  |
+| 4   | 4:03  |
+| 5   | 3:58  |
+| 6   | 4:05  |
+| 7   | 4:03  |
+| 8   | 4:05  |
+| 9   | 4:07  |
+| 10  | 3:55  |
 
 ---
 
@@ -59,7 +58,7 @@ My warm up included a couple sets of butt kicks, a couple sets of cross overs, a
 
 I began my race at the Dow’s Lake Pavilion, running northeast along the canal towards Corktown Bridge and back.
 
-Off the bat, the pace was quick, but comfortable. I noticed my heart rate had jumped to the mid 170s in the first few minutes, which I found surprising. Usually my heart rate climbs a bit slower than that in my past 10K races. I was wearing a chest strap I’ve been using for over a year now for heart rate monitoring, so I was confident it was accurate.  I decided to have faith in my training, and continued at my current pace, which I was trying to hold at just above 4:00/km
+Off the bat, the pace was quick, but comfortable. I noticed my heart rate had jumped to the mid 170s in the first few minutes, which I found surprising. Usually my heart rate climbs a bit slower than that in my past 10K races. I was wearing a chest strap I’ve been using for over a year now for heart rate monitoring, so I was confident it was accurate. I decided to have faith in my training, and continued at my current pace, which I was trying to hold at just above 4:00/km
 
 The course that I picked for my race was, like I mentioned, along the Rideau Canal, which is extremely flat. The final total elevation gain of my race ended up being just 12m in the end. I had never had such a flat course for a 10K before, so I was looking forward to benefitting from that.
 
@@ -69,6 +68,6 @@ The final km was the fastest, but felt much faster than it actually was. I start
 
 ## Post-race
 
-Immediately after the race I spent about 15 minutes just sitting by the canal, catching my breath and updating Strava. The canal is about 3km from my apartment, so  I wanted to take a break before I did a light job back.
+Immediately after the race I spent about 15 minutes just sitting by the canal, catching my breath and updating Strava. The canal is about 3km from my apartment, so I wanted to take a break before I did a light job back.
 
 The rest of the day was pretty easy going. However, the following day I headed out to Gatineau Park for a 40km bike ride 😬
