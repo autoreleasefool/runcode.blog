@@ -1,6 +1,8 @@
 - name: Android
   slug: android
   has_image: true
+- name: Artificial Intelligence
+  slug: artificial-intelligence
 - name: Bowling Companion
   slug: bowling-companion
   has_image: true
@@ -8,6 +10,9 @@
   slug: competition
 - name: Conference
   slug: conference
+- name: Hive Mind
+  slug: hive-mind
+  has_image: true
 - name: iOS
   slug: ios
   has_image: true
@@ -22,6 +27,9 @@
   slug: running
 - name: Security
   slug: security
+- name: Swift
+  slug: swift
+  has_image: true
 - name: Travel
   slug: travel
 - name: Work
