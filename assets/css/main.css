@@ -50,6 +50,7 @@
   --color-text-highlight: #10ac84;
   --color-text-link: #ff9f43;
   --color-text-link-hover: #feca57;
+  --color-text-code: #feca57;
 
   --color-background-card-image: var(--color-background-code);
   --color-background-card-hover: var(--color-background-light);
@@ -1214,7 +1215,11 @@ th {
   padding: 0.5em 1em;
 }
 
-@media(max-width: 950px) {
+.content code {
+  color: var(--color-text-code);
+}
+
+@media (max-width: 950px) {
   .content p,
   .content h1,
   .content h2,
