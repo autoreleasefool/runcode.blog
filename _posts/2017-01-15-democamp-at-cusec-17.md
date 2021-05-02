@@ -3,7 +3,7 @@ layout: post
 permalink: /posts/democamp-at-cusec
 title: "DemoCamp at CUSEC '17"
 date: 2017-01-15 00:00:00 +0000
-tags: conference android bowling-companion
+tags: bowling-companion android conference
 ---
 
 Last Wednesday night I arrived in Montreal, Quebec for the 16th annual Canadian University Software Engineering Conference, or CUSEC. Over the course of the three days, I listened to a number of compelling and enlightening talks, on the ins and outs of vector rasterization, and the social responsibilities we have as software developers.

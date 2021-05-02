@@ -4,7 +4,7 @@ permalink: /posts/google-io-vs-wwdc
 title: "Google IO vs WWDC: My thoughts and experiences"
 date: 2018-06-09 00:00:00 +0000
 feature_image: /assets/posts/google-io-vs-wwdc/iowwdc.jpg
-tags: conference
+tags: conference android ios
 ---
 
 This year I had the opportunity to attend both Google IO and WWDC, the developer-centric events hosted by Google and Apple respectively each year in Silicon Valley.

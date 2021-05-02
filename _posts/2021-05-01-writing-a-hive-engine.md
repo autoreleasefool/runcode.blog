@@ -3,7 +3,7 @@ layout: post
 permalink: /posts/writing-a-hive-engine
 title: Creating the Hive Mind — Writing a Hive Engine
 date: 2021-05-01 16:00:00 +0000
-tags: swift hive-mind artificial-intelligence
+tags: hive-mind swift artificial-intelligence
 ---
 
 This post is the 1st post in my series [Creating the Hive Mind — Building an AI for the board game Hive](/posts/creating-the-hive-mind). If you’re unfamiliar with the topic, start at the beginning and work your way through. Feel free to reach out to me on [twitter](https://twitter.com/autoreleasefool) if you need any clarification or have any suggestions!
