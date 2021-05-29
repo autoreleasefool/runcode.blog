@@ -26,7 +26,7 @@ author:
   name: Joseph Roque
   image: /assets/images/profile.jpg
   bio: >-
-    👋 I’m a mobile developer living in Ottawa, working at Shopify.
+    👋 I’m a mobile developer living in Vancouver.
     Sometimes I work on personal projects. sometimes I go for runs, and sometimes I blog about things.
   twitter: autoreleasefool
   github: autoreleasefool
@@ -37,7 +37,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
