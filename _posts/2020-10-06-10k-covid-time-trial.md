@@ -37,6 +37,8 @@ tags: running race-report
 | 9   | 4:07  |
 | 10  | 3:55  |
 
+---
+
 ## Training
 
 In the ~10 weeks leading up to the race, I followed Pftizinger’s base training schedule to 97km. I pretty much followed the schedule to a T. I only missed a few runs towards the end of the schedule, due to being busy at work and not really having the energy to get up early enough to run.
