@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/10k-covid-time-trial
-title: "Race Report: 10K Covid Time Trial"
+title: "Race Report — 10K Covid Time Trial"
 date: 2020-10-06 21:00:00 -0400
 feature_image: /assets/posts/10k-covid-time-trial/covid-race.jpg
 tags: running race-report
@@ -37,8 +37,6 @@ tags: running race-report
 | 9   | 4:07  |
 | 10  | 3:55  |
 
----
-
 ## Training
 
 In the ~10 weeks leading up to the race, I followed Pftizinger’s base training schedule to 97km. I pretty much followed the schedule to a T. I only missed a few runs towards the end of the schedule, due to being busy at work and not really having the energy to get up early enough to run.
@@ -49,7 +47,8 @@ I think it helped a lot that half of my runs started with Steph, which meant I w
 
 ## Pre-race
 
-The day before the race I took my Nike Next% shoes out for their first run. I had bought these back in April
+The day before the race I took my Nike Next% shoes out for their first run. I had bought these back in April.
+
 The morning of the race I woke up, had a single shot of espresso, and half a peanut butter and jam sandwich. I wasn’t in a rush to get my race started and was up for about 1.5 hours before Steph and I headed out the door. I did a 3K warm up jog to my race track (the Rideau Canal) with her, then she left and I continued my warm up.
 
 My warm up included a couple sets of butt kicks, a couple sets of cross overs, a couple sets of skipping, and a couple sets of leg hip openers. Then, I did some dynamic stretching — leg swings, arm swings. And finally, I wrapped up my warm up with 4x60m sprints. After the final sprint, I was ready to start my race.

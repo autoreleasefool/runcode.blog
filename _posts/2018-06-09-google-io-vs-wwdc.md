@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/google-io-vs-wwdc
-title: "Google IO vs WWDC: My thoughts and experiences"
+title: "Google IO vs WWDC — My thoughts and experiences"
 date: 2018-06-09 00:00:00 +0000
 feature_image: /assets/posts/google-io-vs-wwdc/iowwdc.jpg
 tags: conference android ios

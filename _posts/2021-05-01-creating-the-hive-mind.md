@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/creating-the-hive-mind
-title: Creating the Hive Mind — Building an AI for the board game Hive
+title: "Creating the Hive Mind — Building an AI for the board game Hive"
 date: 2021-05-01 16:00:00 +0000
 tags: hive-mind swift artificial-intelligence
 ---
