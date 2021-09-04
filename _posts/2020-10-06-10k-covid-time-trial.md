@@ -13,7 +13,7 @@ tags: running race-report
 - **When?** Sept 26, 2020
 - **How far?** 10km
 - **Where?** Ottawa, Canada
-- **Strava activity:** [https://www.strava.com/activities/4114461986](https://www.strava.com/activities/4114461986)
+- **Strava activity:** [Strava activity](https://www.strava.com/activities/4114461986)
 - **Finish time:** 40:26
 
 ## Goals
@@ -24,18 +24,18 @@ tags: running race-report
 
 ## Splits
 
-| KM  | Split |
-| --- | ----- |
-| 1   | 3:57  |
-| 2   | 4:02  |
-| 3   | 4:07  |
-| 4   | 4:03  |
-| 5   | 3:58  |
-| 6   | 4:05  |
-| 7   | 4:03  |
-| 8   | 4:05  |
-| 9   | 4:07  |
-| 10  | 3:55  |
+| KM | Split |
+| -- | ----- |
+| 1  | 3:57  |
+| 2  | 4:02  |
+| 3  | 4:07  |
+| 4  | 4:03  |
+| 5  | 3:58  |
+| 6  | 4:05  |
+| 7  | 4:03  |
+| 8  | 4:05  |
+| 9  | 4:07  |
+| 10 | 3:55  |
 
 ---
 

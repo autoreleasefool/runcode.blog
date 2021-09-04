@@ -28,7 +28,7 @@ I've read about the Grind, and everything you see online is exactly correct. It'
 
 <figcaption>Some of the stairs of the Grouse Grind</figcaption>
 
-When it's quiet, and a little wet, the hike is beautiful. The moss on the rocks shines a deep green and the brown wood of the stairs is saturated with water, making them dark and textured. 
+When it's quiet, and a little wet, the hike is beautiful. The moss on the rocks shines a deep green and the brown wood of the stairs is saturated with water, making them dark and textured.
 
 ## The Top
 
