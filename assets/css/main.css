@@ -352,8 +352,7 @@ pre {
 /* ---------------------------------------------------------- */
 
 .icon {
-  -webkit-filter: drop-shadow(0 6px 6px rgba(255, 255, 255, 0.2));
-  filter: drop-shadow(0 6px 6px rgba(255, 255, 255, 0.2));
+  filter: invert(100%);
 }
 
 /* Buttons
