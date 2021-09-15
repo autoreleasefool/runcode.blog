@@ -3,7 +3,7 @@ layout: post
 permalink: /posts/grouse-grind
 title: "The Grouse Grind — First Attempt"
 date: 2021-08-09 18:00:00 -0400
-feature_image: /assets/posts/grouse-grind/banner.jpg
+feature_image: /assets/posts/grouse-grind-header.jpg
 tags: personal running
 ---
 
@@ -23,7 +23,7 @@ At the base, we quickly found the start with some help, and started our trek.
 
 I've read about the Grind, and everything you see online is exactly correct. It's a long ass staircase up a mountain. One thing to note, is that people mention it's often busy on a weekend. Which makes a lot of sense! Except, this weekend, it wasn't. Probably due to the rain from the previous day, and the complete overcast and fog, there'd really be no views at the top. That meant we had a pretty quiet day overall, compared to some of the videos I've seen.
 
-![Some of the stairs of the Grouse Grind](/assets/posts/grouse-grind/stairs.jpg)
+![Some of the stairs of the Grouse Grind](/assets/posts/grouse-grind-stairs.jpg)
 
 <figcaption>Some of the stairs of the Grouse Grind</figcaption>
 
@@ -35,7 +35,7 @@ After 1 hour, 20 minutes and 31 seconds, we reached the top! We rewarded ourselv
 
 Unfortunately, with the overcast and fog, there really wasn't much to see! Which is fine, I've been on top of Grouse before, I wasn't missing too much.
 
-![Foggy view taken at the top of Grouse Mountain](/assets/posts/grouse-grind/views.jpg)
+![Foggy view taken at the top of Grouse Mountain](/assets/posts/grouse-grind-views.jpg)
 
 <figcaption>Foggy view taken at the top of Grouse Mountain</figcaption>
 

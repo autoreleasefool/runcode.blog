@@ -3,11 +3,11 @@ layout: post
 permalink: /posts/saving-space-penguins-csgames
 title: "Saving Space Penguins at CS Games 2018"
 date: 2018-03-27 00:00:00 +0000
-feature_image: /assets/posts/saving-space-penguins-csgames/banner.jpg
+feature_image: /assets/posts/saving-space-penguins-csgames-header.jpg
 tags: conference ios security competition
 ---
 
-This past weekend the annual CS Games event took place in Quebec City, hosted by Université Laval. I didn’t originally plan on attending, but am very thankful a friend convinced me to pick up a ticket a month ago!
+This past weekend the annual CS Games event took place in Quebec City, hosted by Université Laval. I didn't originally plan on attending, but am very thankful a friend convinced me to pick up a ticket a month ago!
 
 CS Games is a competition that takes place every year where nearly 40 teams from schools across Canada (and the University of Rochester, from New York) meet for a weekend to face one another in a variety of Computer Science related challenges. The challenges are all created by students of the hosting schools, or by companies which sponsor the event. There were 17 competitions held throughout the weekend, made for 2 or 3 participants from each team of 10 students. Prizes were awarded for each competition, as well as for the overall winners of the event.
 
@@ -15,7 +15,7 @@ You can learn more about CS Games for yourself at their website, [csgames.org](h
 
 Last year I participated in 3 challenges, the Artificial Intelligence challenge, the Sports challenge, and the Mirego Mobile challenge. This year, I competed in 4, and was scheduled to compete in a challenge in every possible time slot. It was a crazy weekend, with little sleep, but I had an absolute bast.
 
-In the end, I took home 2nd place for the Mirego mobile challenge, and placed 23rd in AI, 14th in Relay, and 10th in security. You can read about each of the challenges I participated in below to learn more about the structure, my team’s approach, and how we stacked up against the competition.
+In the end, I took home 2nd place for the Mirego mobile challenge, and placed 23rd in AI, 14th in Relay, and 10th in security. You can read about each of the challenges I participated in below to learn more about the structure, my team's approach, and how we stacked up against the competition.
 
 ## Artificial Intelligence Challenge
 
@@ -25,7 +25,7 @@ The challenge was to build a bot which would compete in a tournament against the
 
 Overall, both teams from the University of Ottawa thought the event went really well. All 4 of us began working on our 2 bots at 6:30, but continued until 5 in the morning! Our strategy was to sit on a material deposit and collect material until we had just enough turns left to return to our base and drop of the materials for our points near the last turn. If the material we wanted to collect was blocked by another bot, we would attack, and if we were attacked, we would wait until our health was low, back off, heal, and return. The amount of material you could collect from a deposit also varied, so we tracked how much each bot got from their material deposits, and went to the one which offered the most points vs distance from our own base.
 
-In the end, we were pretty disappointed with our results. We thought we had written really impressive bots, and weren’t sure why our bot hadn’t made it into the top 4. It actually ended up placing 23rd out of 29 teams, which was not at all what we expected. But these things happen!
+In the end, we were pretty disappointed with our results. We thought we had written really impressive bots, and weren't sure why our bot hadn't made it into the top 4. It actually ended up placing 23rd out of 29 teams, which was not at all what we expected. But these things happen!
 
 If you want to see our bot, you can check out the source code [here!](https://github.com/autoreleasefool/csgames18-ai)
 
@@ -33,7 +33,7 @@ If you want to see our bot, you can check out the source code [here!](https://gi
 
 The Relay programming challenge was one that none of us were prepared for. Nobody from either uOttawa team had much experience with any of the long list of required languages and dependencies — Java Spring, Zuul, Eureka, and more.
 
-This challenge was basically a wash. We weren’t sure what we were doing most of the time, and we aren’t even sure we actually accomplished any of the tasks at the end! But that’s alright. We never expected to do well in this competition anyway!
+This challenge was basically a wash. We weren't sure what we were doing most of the time, and we aren't even sure we actually accomplished any of the tasks at the end! But that's alright. We never expected to do well in this competition anyway!
 
 We placed 14th out of 29 teams, actually not a bad result for the amount of work we did.
 
@@ -41,15 +41,15 @@ We placed 14th out of 29 teams, actually not a bad result for the amount of work
 
 The security challenge was another challenge where my partner and I had little knowledge of the required languages and domains. Rust, x86, ARM, and .NET Core were among the list, none of which either of us had ever done any work with in the past.
 
-However, that didn’t stop us! The challenge was basically to look for exploits in a number of binary files and web services in order to discover flags. The more flags you found, the better, and the less people people found those same flags, the more points you got for them.
+However, that didn't stop us! The challenge was basically to look for exploits in a number of binary files and web services in order to discover flags. The more flags you found, the better, and the less people people found those same flags, the more points you got for them.
 
 In the end, we found 3 flags! All from the web services exploits. Unfortunately, neither my partner nor I had much experience at all working with binary files, so those challenges were way too much for us!
 
-Our team placed 10th out of 29 teams, just behind the University of Ottawa’s A team in 9th place.
+Our team placed 10th out of 29 teams, just behind the University of Ottawa's A team in 9th place.
 
 ## Mirego Mobile Challenge
 
-Finally, mobile! This was the challenge I was most excited for. I competed last year with a minimal amount of iOS experience, and some Android experience, but I just wasn’t familiar with the infrastructure that Mirego (the challenge sponsors and creators) built the skeleton app with.
+Finally, mobile! This was the challenge I was most excited for. I competed last year with a minimal amount of iOS experience, and some Android experience, but I just wasn't familiar with the infrastructure that Mirego (the challenge sponsors and creators) built the skeleton app with.
 
 This year, the challenge revolved around the theme of helping the penguins from space repair their ship with parts scattered across the city. An API endpoint was provided to retrieve a list of parts, their descriptions, their image, and the location of the part.
 
@@ -62,21 +62,21 @@ With this list of parts, each team had to alter the provided skeleton app to imp
 
 Over the course of 3 hours, my partner and I were able to accomplish the first 2 tasks nearly entirely — we had a list of parts displayed, you could select them and get descriptions, and the cells were complete reusable. We also got a map showing all of the locations for items. My partner was also a whiz with location, and we were able to display the distance between ourselves and all the items, as well as get the addresses of items when available.
 
-Two things we were a bit disappointed to not complete were tapping a pin on the map to display a description of the part, and filtering the list. The former is actually fairly simple, it just slipped my mind to implement. The latter ended up being much tougher, owing to a the fact that I’ve just not had any experience with `UISearchController`.
+Two things we were a bit disappointed to not complete were tapping a pin on the map to display a description of the part, and filtering the list. The former is actually fairly simple, it just slipped my mind to implement. The latter ended up being much tougher, owing to a the fact that I've just not had any experience with `UISearchController`.
 
 Overall, we were really proud of our app! We ended up placing 2nd and were definitely satisfied with our results.
 
-![Picture of me holding a trophy](/assets/posts/saving-space-penguins-csgames/trophy.jpg)
+![Picture of me holding a trophy](/assets/posts/saving-space-penguins-csgames-trophy.jpg)
 
 <figcaption>Picture of me holding a trophy</figcaption>
 
 If you want to see our 2nd place app, you can check it out [here!](https://github.com/autoreleasefool/csgames18-mobile)
 
-## uOttawa’s results
+## uOttawa's results
 
 The University of Ottawa had a successful CS Games, taking home 1 first place trophy, 2 for 2nd place, and 1 in 3rd.
 
-![4 trophies won by uOttawa](/assets/posts/saving-space-penguins-csgames/trophies.jpg)
+![4 trophies won by uOttawa](/assets/posts/saving-space-penguins-csgames-trophies.jpg)
 
 <figcaption>4 trophies won by uOttawa</figcaption>
 
@@ -84,4 +84,4 @@ Our A team placed 9th overall, and our B team placed 16th, out of 29 teams! A bi
 
 ## My final year as a competitor
 
-Unfortunately, next year I won’t be able to attend CS Games as a competitor, since I’ll have graduated by then. However, CS Games allows each team to bring 1 mentor, a “Godfather” to the team, and I hope I get the opportunity to continue participating in the future! While I won’t be able to participate in any of the competitions, there are events and challenges that take place throughout the weekend that will help keep me busy!
+Unfortunately, next year I won't be able to attend CS Games as a competitor, since I'll have graduated by then. However, CS Games allows each team to bring 1 mentor, a "Godfather" to the team, and I hope I get the opportunity to continue participating in the future! While I won't be able to participate in any of the competitions, there are events and challenges that take place throughout the weekend that will help keep me busy!

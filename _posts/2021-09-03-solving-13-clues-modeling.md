@@ -1,13 +1,13 @@
 ---
 layout: post
-permalink: /posts/solving-13-clues-modelling
+permalink: /posts/solving-13-clues-modeling
 title: "Solving 13 Clues, Part 1 — Modeling the game"
 date: 2021-09-03 10:30:00 -0700
-feature_image: /assets/posts/solving-13-clues-modelling/header.png
-tags: board-games swift ios 13-clues
+feature_image: /assets/posts/solving-13-clues-modeling-header.png
+tags: board-games swift
 ---
 
-_This is the first post in a series of 3 describing my process while building a solver for the boardgame 13 Clues. For the next 2 posts, skip to the end._
+_This is the first post in a series of 3 describing my process while building a solver for the board game 13 Clues. For the next 2 posts, skip to the end._
 
 In July of 2021 [BoardGameArena](https://en.boardgamearena.com) published a new game to their site, 13 Clues. I thought it might be fun to try and create an app that can solve the mystery (or at least get close to solving it)! This post documents that process, and goes over how the final app, as of this article's publication, handles this problem. If you want to take a look at the app at any time, it's currently open sourced on [GitHub](https://github.com/autoreleasefool/fourteenth-clue), with the solver logic in the [FourteenthClueKit library](https://github.com/autoreleasefool/fourteenth-clue-kit).
 
@@ -33,7 +33,7 @@ Finally, the game progresses by player taking `Action`s, either by making `Inqui
 
 ## Fourteenth Clue
 
-_This section refers to the [Fourteenth Clue](https://github.com/autoreleasefool/fourteenth-clue-kit), app, a repository of UIs for interacting with the modelled state of a game. There is an iOS app, as well as a CLI app, written in Swift._
+_This section refers to the [Fourteenth Clue](https://github.com/autoreleasefool/fourteenth-clue), app, a repository of UIs for interacting with the modeled state of a game. There is an iOS app, as well as a CLI app, written in Swift._
 
 There are 3 components to the 13 Clues Solver, affectionately named **Fourteenth Clue** — a library, which handles the solving logic, and 2 separate front-end components (an iOS app, and a Command-Line Interface). You can choose either way to interact with the solver.
 
@@ -41,7 +41,7 @@ The app and CLI are made to be simple and effective for recording a game's state
 
 ### iOS App
 
-If you're using the iOS app to solve your game of 13 Clues, then you can read the following section on how to get your game's state loaded into the app, ready for solving. An introduction to the CLI will follow this section. If you're just interested in the meat of the solver, then you can jump ahead to the next post in the series, [_Coming soon: Solving 13 Clues, Part 2 — Approaches to solving a mystery](#)
+If you're using the iOS app to solve your game of 13 Clues, then you can read the following section on how to get your game's state loaded into the app, ready for solving. An introduction to the CLI will follow this section. If you're just interested in the meat of the solver, then you can jump ahead to the next post in the series, [_Coming soon: Solving 13 Clues, Part 2 — Approaches to solving a mystery_](/posts/solving-13-clues-approaches)
 
 The initial state is built in the `GameBuilder` view, which primarily accepts a JSON object that you can get from a BoardGameArena game following these steps
 
@@ -57,7 +57,7 @@ gameui.notif_onCombinaisonAssigned = function (e) {
     console.log(initialGameStateForCopy)
     orig.call(this, e);
   } catch (e) {
-    console.log("joseph" + e);
+    console.log("error: " + e);
   }
 }
 ```
@@ -73,7 +73,7 @@ gameui.notif_onCombinaisonAssigned = function (e) {
 }
 ```
 
-![A screenshot of the app showing the text field where the JSON should be pasted](/assets/posts/solving-13-clues-modelling/gamebuilder.png)
+![A screenshot of the app showing the text field where the JSON should be pasted](/assets/posts/solving-13-clues-modeling-gamebuilder.png)
 
 <figcaption>A screenshot of the app showing the text field where the JSON should be pasted</figcaption>
 
@@ -81,7 +81,7 @@ You can also update player names at this time, so you don't have to try and reco
 
 3. From there, you can start the game in Fourteenth Clue, and you'll see a state similar to the one presented to you in BoardGameArena.
 
-![A screenshot of the app showing the initial state of a game](/assets/posts/solving-13-clues-modelling/gamestate.png)
+![A screenshot of the app showing the initial state of a game](/assets/posts/solving-13-clues-modeling-gamestate.png)
 
 <figcaption>A screenshot of the app showing the initial state of a game</figcaption>
 
@@ -91,7 +91,7 @@ Once you have the initial state of the game set up, you can continue to modify t
 - Add a new `Inquisition`, `Accusation`, or `Examination` by tapping "Add action" and completing the form presented.
 - Reveal a `SecretInformant` by tapping the informant's position and selecting which card it represents from the list that appears.
 
-As you modify the state, recording the clues that are asked and answered during the course of the game, the app will attempt to calculate the most likely solution to your mystery, through the approaches described in the next post, [_Coming soon:_ Solving 13 Clues, Part 2 — Approaches to solving a mystery](#). As it determines the most likely solution, it will surface them in the UI. Similarly, the app will recommend actions for you to take when it's your turn, as discussed in the third post, [_Coming soon:_ Solving 13 Clues, Part 3 — Asking the right questions](#).
+As you modify the state, recording the clues that are asked and answered during the course of the game, the app will attempt to calculate the most likely solution to your mystery, through the approaches described in the next post, [_Coming soon: Solving 13 Clues, Part 2 — Approaches to solving a mystery_](/posts/solving-13-clues-approaches). As it determines the most likely solution, it will surface them in the UI. Similarly, the app will recommend actions for you to take when it's your turn, as discussed in the third post, [_Coming soon: Solving 13 Clues, Part 3 — Asking the right questions_](/posts/solving-13-clues-questions).
 
 ### CLI
 
@@ -111,7 +111,7 @@ gameui.notif_onCombinaisonAssigned = function (e) {
     console.log(initialGameStateForCopy)
     orig.call(this, e);
   } catch (e) {
-    console.log("joseph" + e);
+    console.log("error: " + e);
   }
 }
 ```
@@ -137,10 +137,10 @@ Pass the output to the `fourteenth-clue` command
 
 This concludes the first post in this series, _Solving 13 Clues_. We learned how we are going to model the state of the game, as well as how we'll load the state into the app so we can manipulate it. In the next post we'll look at some approaches to actually solving the game.
 
-**Up next:** _Coming soon:__ Solving 13 Clues, Part 2 — Approaches to solving a mystery
+**Up next:** [_Coming soon: Solving 13 Clues, Part 2 — Approaches to solving a mystery_](/posts/solving-13-clues-approaches)
 
 You can find all the parts in this series below:
 
-1. [_Solving 13 Clues, Part 1 — Modeling the game_](/posts/solving-13-clues-modelling)
-2. [_Coming soon:_ Solving 13 Clues, Part 2 — Approaches to solving a mystery](#)
-3. [_Coming soon:_ Solving 13 Clues, Part 3 — Asking the right questions](#)
+1. [Solving 13 Clues, Part 1 — Modeling the game](#)
+2. [_Coming soon: Solving 13 Clues, Part 2 — Approaches to solving a mystery_](/posts/solving-13-clues-approaches)
+3. [_Coming soon: Solving 13 Clues, Part 3 — Asking the right questions_](/posts/solving-13-clues-questions)
