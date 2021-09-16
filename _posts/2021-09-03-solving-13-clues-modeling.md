@@ -7,6 +7,8 @@ feature_image: /assets/posts/solving-13-clues-modeling-header.png
 tags: board-games swift
 ---
 
+This series details how I built a solver for the game of [13 Clues](https://boardgamegeek.com/boardgame/208766/13-clues). From modeling the game, to the various solver approaches, and discovering the ideal move each turn.
+
 _This is the first post in a series of 3 describing my process while building a solver for the board game 13 Clues. For the next 2 posts, skip to the end._
 
 In July of 2021 [BoardGameArena](https://en.boardgamearena.com) published a new game to their site, 13 Clues. I thought it might be fun to try and create an app that can solve the mystery (or at least get close to solving it)! This post documents that process, and goes over how the final app, as of this article's publication, handles this problem. If you want to take a look at the app at any time, it's currently open sourced on [GitHub](https://github.com/autoreleasefool/fourteenth-clue), with the solver logic in the [FourteenthClueKit library](https://github.com/autoreleasefool/fourteenth-clue-kit).
