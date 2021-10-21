@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/saving-space-penguins-csgames
 title: "Saving Space Penguins at CS Games 2018"
-date: 2018-03-27 00:00:00 +0000
+date: 2018-03-27T00:00:00+00:00
 feature_image: /assets/posts/saving-space-penguins-csgames-header.jpg
 tags: conference ios security competition
+
 ---
 
 This past weekend the annual CS Games event took place in Quebec City, hosted by Université Laval. I didn't originally plan on attending, but am very thankful a friend convinced me to pick up a ticket a month ago!

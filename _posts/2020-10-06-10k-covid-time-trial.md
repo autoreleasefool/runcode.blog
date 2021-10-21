@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/10k-covid-time-trial
 title: "Race Report — 10K Covid Time Trial"
-date: 2020-10-06 21:00:00 -0400
+date: 2020-10-06T21:00:00-04:00
 feature_image: /assets/posts/10k-covid-time-trial-header.jpg
 tags: running race-report
+
 ---
 
 ## Race information

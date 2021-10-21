@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/new-keyboard
 title: "New keyboard, who dis?"
-date: 2020-09-02 09:30:00 -0400
+date: 2020-09-02T09:30:00-04:00
 feature_image: /assets/posts/new-keyboard-header.jpg
 tags: personal
+
 ---
 
 Last week my new keyboard arrived: the Ergodox. I was interested in picking up a mechanical keyboard and after doing some research on which ones would be compatible with macOS, I settled on the Ergodox.

@@ -2,8 +2,9 @@
 layout: post
 permalink: /posts/creating-the-hive-mind
 title: "Creating the Hive Mind — Building an AI for the board game Hive"
-date: 2021-05-01 16:00:00 +0000
+date: 2021-05-01T16:00:00+00:00
 tags: hive-mind swift artificial-intelligence board-games
+
 ---
 
 At the start of 2018, I introduced my team at work to the board game, Hive, which they quickly became enamoured with. If you don't know anything about Hive, the gist is that it's a 2 player game where players use pieces that move around the board in unique ways to try to surround their opponent's queen bee. If you need some additional context, or want to fully learn the rules of the game, it's on [BoardGameGeek](https://boardgamegeek.com/boardgame/2655/hive).

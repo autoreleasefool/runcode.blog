@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/8-months-in-stockholm
 title: "Returning to Canada after 8 months in Stockholm"
-date: 2020-06-03 07:30:00 -0400
+date: 2020-06-03T07:30:00-04:00
 feature_image: /assets/posts/8-months-in-stockholm-header.jpg
 tags: travel work ios react-native
+
 ---
 
 Last week was the end of my 1 year assignment with Shopify in their Stockholm office, cut a little short thanks to COVID-19. I'd like to share my thoughts on the experience, how living and working abroad for a year went, and why I've decided to come home now.

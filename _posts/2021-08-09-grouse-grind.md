@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/grouse-grind
 title: "The Grouse Grind — First Attempt"
-date: 2021-08-09 18:00:00 -0400
+date: 2021-08-09T18:00:00-07:00
 feature_image: /assets/posts/grouse-grind-header.jpg
 tags: personal running
+
 ---
 
 This past weekend, I tackled a challenge I've had for a while: attempting the Grouse Grind. For those unaware, the Grouse Grind is a hike up Grouse Mountain, a mountain at the northern edge of North Vancouver. According to [their website](https://www.grousemountain.com/grousegrind):

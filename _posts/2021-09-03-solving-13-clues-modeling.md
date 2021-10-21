@@ -2,9 +2,10 @@
 layout: post
 permalink: /posts/solving-13-clues-modeling
 title: "Solving 13 Clues, Part 1 — Modeling the game"
-date: 2021-09-03 10:30:00 -0700
+date: 2021-09-03T10:30:00-07:00
 feature_image: /assets/posts/solving-13-clues-modeling-header.png
 tags: board-games swift
+
 ---
 
 This series details how I built a solver for the game of [13 Clues](https://boardgamegeek.com/boardgame/208766/13-clues). From modeling the game, to the various solver approaches, and discovering the ideal move each turn.
