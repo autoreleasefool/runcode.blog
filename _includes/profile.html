@@ -5,8 +5,8 @@
     <p class="profile-bio">{{ site.author.bio }}</p>
     <ul class="profile-links">
       <li><a href="{{ site.author.website }}"><img class="icon" src="/assets/images/icons/avatar.png" /> <span class="extract-hostname">{{ site.author.website }}</span></a></li>
-      <li><a href="https://twitter.com/{{ site.author.twitter }}"><img class="icon" src="/assets/images/icons/twitter.png" /> <span>@{{ site.author.twitter }}</span></a></li>
-      <li><a href="https://github.com/{{ site.author.github }}"><img class="icon" src="/assets/images/icons/github.png" /> <span>@{{ site.author.github }}</span></a></li>
+      <li><a href="{{ site.author.mastodon.url }}"><img class="icon" src="/assets/images/icons/mastodon.png" /> <span>{{ site.author.mastodon.name }}</span></a></li>
+      <li><a href="{{ site.author.github.url }}"><img class="icon" src="/assets/images/icons/github.png" /> <span>{{ site.author.github.name }}</span></a></li>
     </ul>
   </div>
 </div>

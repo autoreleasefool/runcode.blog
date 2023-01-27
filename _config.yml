@@ -28,8 +28,15 @@ author:
   bio: >-
     👋 I’m a mobile developer living in Vancouver.
     Sometimes I work on personal projects, sometimes I go for runs, and sometimes I blog about things.
-  twitter: autoreleasefool
-  github: autoreleasefool
+  mastodon:
+    name: "@autoreleasefool@iosdev.space"
+    url: https://iosdev.space/@autoreleasefool
+  twitter:
+    name: "@autoreleasefool"
+    url: https://twitter.com/autoreleasefool
+  github:
+    name: "@autoreleasefool"
+    url: https://github.com/autoreleasefool
   linkedin: josephroquedev
 
 # Build settings

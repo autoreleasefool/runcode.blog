@@ -7,8 +7,8 @@
       <p class="profile-bio">{{ site.author.bio }}</p>
       <div class="profile-links">
         <a href="{{ site.author.website }}"><img class="icon" src="/assets/images/icons/avatar.png" /></a>
-        <a href="https://twitter.com/{{ site.author.twitter}}"><img class="icon" src="/assets/images/icons/twitter.png" /></a>
-        <a href="https://github.com/{{ site.author.github }}"><img class="icon" src="/assets/images/icons/github.png" /></a>
+        <a rel="me" href="{{ site.author.mastodon.url }}"><img class="icon" src="/assets/images/icons/mastodon.png" /></a>
+        <a href="{{ site.author.github.url }}"><img class="icon" src="/assets/images/icons/github.png" /></a>
       </div>
     </div>
   </div>
