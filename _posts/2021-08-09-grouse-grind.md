@@ -14,7 +14,7 @@ This past weekend, I tackled a challenge I've had for a while: attempting the Gr
 
 I went with my friend, Elisa, who's been staying in Vancouver for just 3 months. We weren't entirely sure we'd have a chance to do it this weekend, after it started raining for the first time in 45 days in Vancouver! We passed on going Saturday, when it rained all day. But when we woke up Sunday, it was cloudy, but no forecast of rain, so the challenge was on!
 
-## Reaching the start
+## Reaching the Start
 
 To reach Grouse Mountain, and the start of the Grouse Grind trail, we took 2 buses from downtown: the 246 to Highland, then switched at Capilano & Paisley, to the 236 to Grouse Mountain. The trip took about 45 minutes, faster than expected, with little traffic and nearly no wait time between buses.
 

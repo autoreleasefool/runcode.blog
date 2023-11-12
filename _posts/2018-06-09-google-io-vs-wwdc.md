@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/google-io-vs-wwdc
-title: "Google IO vs WWDC — My thoughts and experiences"
+title: "Google IO Vs WWDC — My Thoughts and Experiences"
 date: 2018-06-09T00:00:00+00:00
 feature_image: /assets/posts/google-io-vs-wwdc-header.jpg
 tags: conference android ios
@@ -44,7 +44,7 @@ One huge difference between IO and WWDC were the product showcases scattered thr
 
 My favourite showcase was a toss-up between Android Things and Machine Learning. Both had some really cool projects, inspiring me to put my own Android Things kit and Raspberry Pi to use in a small project in the near future.
 
-## Evening events
+## Evening Events
 
 Though the sessions and labs typically close down by 6, neither Google IO nor WWDC had finished for the night. Every evening you could expect at least a couple parties hosted by Google and Apple themselves, or by other companies at nearby establishments.
 

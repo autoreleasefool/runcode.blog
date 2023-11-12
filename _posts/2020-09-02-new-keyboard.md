@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/new-keyboard
-title: "New keyboard, who dis?"
+title: "New Keyboard, Who Dis?"
 date: 2020-09-02T09:30:00-04:00
 feature_image: /assets/posts/new-keyboard-header.jpg
 tags: personal

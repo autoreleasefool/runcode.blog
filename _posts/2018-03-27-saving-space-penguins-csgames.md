@@ -73,7 +73,7 @@ Overall, we were really proud of our app! We ended up placing 2nd and were defin
 
 If you want to see our 2nd place app, you can check it out [here!](https://github.com/autoreleasefool/csgames18-mobile)
 
-## uOttawa's results
+## uOttawa's Results
 
 The University of Ottawa had a successful CS Games, taking home 1 first place trophy, 2 for 2nd place, and 1 in 3rd.
 
@@ -83,6 +83,6 @@ The University of Ottawa had a successful CS Games, taking home 1 first place tr
 
 Our A team placed 9th overall, and our B team placed 16th, out of 29 teams! A bit disappointing considering our 2nd place result in 2017, but these things happen!
 
-## My final year as a competitor
+## My Final Year as a Competitor
 
 Unfortunately, next year I won't be able to attend CS Games as a competitor, since I'll have graduated by then. However, CS Games allows each team to bring 1 mentor, a "Godfather" to the team, and I hope I get the opportunity to continue participating in the future! While I won't be able to participate in any of the competitions, there are events and challenges that take place throughout the weekend that will help keep me busy!

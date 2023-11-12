@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /posts/8-months-in-stockholm
-title: "Returning to Canada after 8 months in Stockholm"
+title: "Returning to Canada After 8 Months in Stockholm"
 date: 2020-06-03T07:30:00-04:00
 feature_image: /assets/posts/8-months-in-stockholm-header.jpg
 tags: travel work ios react-native
@@ -10,7 +10,7 @@ tags: travel work ios react-native
 
 Last week was the end of my 1 year assignment with Shopify in their Stockholm office, cut a little short thanks to COVID-19. I'd like to share my thoughts on the experience, how living and working abroad for a year went, and why I've decided to come home now.
 
-## How'd it all begin?
+## How'd it All Begin?
 
 It was actually right around this time last year that a recruiter reached out in the iOS slack channel at Shopify, outlining an opportunity for a 1 year assignment working abroad in Stockholm with the Arrive team. The assignment was as a native iOS developer on the React Native Arrive app, building out native components that needed improved performance. I applied, interviewed with the team, and everything was a go.
 
@@ -28,7 +28,7 @@ My first impression of the team and the office was overwhelmingly positive. They
 
 I think one of my favourite things about Shopify's Stockholm office was how small and tight-knit the group was. Most of them had been working together for years before they joined Shopify, and had strong relationships with one another. With the office being only one floor, it meant you could run into anybody and everybody at any time of day. I quickly became acquainted with everybody, and started making new friends. It took some time, but eventually, I started to feel like I could be part of that tight-knit group.
 
-### Working on the Shop app
+### Working on the Shop App
 
 Remember when I mentioned that I had been hired to work on native components for the React Native Arrive app? Well, that was the original plan in May, but by the time I actually started in September, there had been a huge shift. Instead, there was going to be a [much heavier focus on React Native](https://engineering.shopify.com/blogs/engineering/react-native-future-mobile-shopify), and I was going to have to start learning!
 
@@ -84,7 +84,7 @@ We opted for the 45km version, since we really weren't sure if we were in the ri
 
 Vasaloppet was certainly one of the highlights of my time in Sweden — so much so that I'm already signed up for next year's event! I'll be taking on the full 90km next year, which also means learning to classic ski by then.
 
-## Returning home
+## Returning Home
 
 Like I mentioned in the introduction, this was meant to be a 1 year assignment, but in the end I've returned home after 8 just months. Unfortunately, living and working in near isolation hasn't been healthy for me, and I couldn't stay sane much longer. It's been nice to be back home, to see my girlfriend, Steph, and to hopefully see some friends when the COVID situation improves.
 

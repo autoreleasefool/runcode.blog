@@ -4,11 +4,12 @@ permalink: /posts/writing-a-hive-engine
 title: "Creating the Hive Mind — Writing a Hive Engine"
 date: 2021-05-01T16:00:00+00:00
 tags: hive-mind swift artificial-intelligence board-games
+
 ---
 
-This post is the 1st post in my series [Creating the Hive Mind — Building an AI for the board game Hive](/posts/creating-the-hive-mind). If you're unfamiliar with the topic, start at the beginning and work your way through. Feel free to reach out to me on [Mastodon](https://iosdev.space/@autoreleasefool) if you need any clarification or have any suggestions!
+This post is the 1st post in my series [Creating the Hive Mind — Building an AI for the board game Hive](/posts/creating-the-hive-mind). If you're unfamiliar with the topic, start at the beginning and work your way through. Feel free to reach out to me on [Twitter](https://twitter.com/autoreleasefool) if you need any clarification or have any suggestions!
 
-## Getting started
+## Getting Started
 
 My first step in writing the Hive Mind, was to create a robust implementation of the rules of the game, so the AI can play within the rules. If the AI must constantly explore moves it can't legally make, a lot of time and resources are wasted, and it could end up choosing a move that isn't even valid.
 
@@ -24,7 +25,7 @@ The primary class in the Hive Engine is the `GameState`. It represents a singula
 
 Let's consider a typical game of Hive. What does the board look like at the start of a game? Each player has 11 pieces to play (not considering the expansions). White will move first. There's only one position they can play, since wherever the first piece gets placed becomes the origin for the rest of the game. All of these elements make up the `GameState`
 
-### Representing the board
+### Representing the Board
 
 To represent the state of a game of Hive, we need to know:
 
@@ -44,7 +45,7 @@ A `Position` defines a space on the board where a `Unit` can be placed. Since pi
 
 `Position`s rely on a hexagonal grid system, inspired by an [excellent article](https://www.redblobgames.com/grids/hexagons/) by Red Blog Games. Details on the grid system implementation can be found [here](https://www.redblobgames.com/grids/hexagons/implementation.html). Currently, the engine relies on the grid system based in 3-dimensional coordinates, but in the future I intend to explore relative positioning, as a potential optimization.
 
-#### Changing positions
+#### Changing Positions
 
 In the game of Hive, there are a couple rules one must follow when moving a piece from one `Position` to another. The `Position` class defines the rules, and uses an instance of a `GameState` to determine where the pieces sit, and if a movement from one `Position` to another is feasible.
 
@@ -52,7 +53,7 @@ The **freedom of movement** rule limits movements between `Position`s based on t
 
 The **one hive** rule limits the movements of a piece when moving it would cause a stack at a `Position` to become empty, and create disconnect in the board. If you imagine the board as a graph, it must always remain a single, connected graph.
 
-## Enumerating movements
+## Enumerating Movements
 
 For the Hive Mind to be able to explore various states and determine which move is the best to make in a given situation, it must be able to determine valid movements in any given state. The `GameState` class therefore offers the `availableMoves` property, which enumerate all possible movements for each `Unit` to any `Position` it can feasibly be moved to that turn. There are 4 types of movements, represented in the `Movement` enumeration:
 

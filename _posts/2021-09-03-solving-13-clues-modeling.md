@@ -18,7 +18,7 @@ First, some background: [13 Clues](https://boardgamegeek.com/boardgame/208766/13
 
 This process-of-elimination style of gameplay, and the simple structure of the game's setup, made this seem like an ideal game to replicate and try to build a solver that could, hopefully, out-perform any human player. In this post, I'll walk through how I modeled the game's state and built the [FourteenthClueKit](https://github.com/autoreleasefool/fourteenth-clue-kit) and [Fourteenth Clue](https://github.com/autoreleasefool/fourteenth-clue) app. The subsequent posts will look at the strategies I explored for solving the game, and what I eventually settled on, as well as a look at how the solver also recommends the best possible question to ask in order to improve your knowledge of the game the most.
 
-## Modeling the game
+## Modeling the Game
 
 _This section refers to the [FourteenthClueKit](https://github.com/autoreleasefool/fourteenth-clue-kit), a Swift library for solving games of 13 Clues._
 
@@ -136,7 +136,7 @@ Pass the output to the `fourteenth-clue` command
 
 3. From there, `fourteenth-clue` will wait and listen to further input. You can check out the project's [README](https://github.com/autoreleasefool/fourteenth-clue) for more information on using the CLI.
 
-## Next steps
+## Next Steps
 
 This concludes the first post in this series, _Solving 13 Clues_. We learned how we are going to model the state of the game, as well as how we'll load the state into the app so we can manipulate it. In the next post we'll look at some approaches to actually solving the game.
 
