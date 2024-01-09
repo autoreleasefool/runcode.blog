@@ -6,6 +6,8 @@
   has_image: true
 - name: Artificial Intelligence
   slug: artificial-intelligence
+- name: Birding
+  slug: birding
 - name: Competition
   slug: competition
 - name: Conference
