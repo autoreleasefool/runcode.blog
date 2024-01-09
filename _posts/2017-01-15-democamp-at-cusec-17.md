@@ -3,7 +3,7 @@ layout: post
 permalink: /posts/democamp-at-cusec-17
 title: "DemoCamp at CUSEC '17"
 date: 2017-01-15T00:00:00+00:00
-tags: bowling-companion android conference
+tags: approach android conference
 
 ---
 

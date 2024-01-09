@@ -1,11 +1,11 @@
 - name: Android
   slug: android
   has_image: true
+- name: Approach
+  slug: approach
+  has_image: true
 - name: Artificial Intelligence
   slug: artificial-intelligence
-- name: Bowling Companion
-  slug: bowling-companion
-  has_image: true
 - name: Competition
   slug: competition
 - name: Conference
