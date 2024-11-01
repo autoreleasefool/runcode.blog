@@ -12,6 +12,8 @@
   slug: competition
 - name: Conference
   slug: conference
+- name: Development Log
+  slug: devlog
 - name: Hive Mind
   slug: hive-mind
   has_image: true
