@@ -13,7 +13,7 @@ tags: running race-report
 - **What?** Covid 10K Time Trial
 - **When?** Sept 26, 2020
 - **How far?** 10km
-- **Where?** Ottawa, Canada
+- **Where?** Ottawa, ON, Canada
 - **Strava activity:** [Strava activity](https://www.strava.com/activities/4114461986)
 - **Finish time:** 40:26
 
