@@ -12,7 +12,7 @@ Exactly 10 years ago I published the first version of my first solo Android app,
 
 ## Why 5-Pin Bowling?
 
-I started working on the first version of the Bowling Companion (it's original name!) in January 2015. I was in my 2nd year of university, and was going to have to start applying to co-op positions for that summer. I was looking for my niche, something that I could build that would be unique, that I had a need for, and that I would be passionate about building. I had been bowling most of my life at that point, and realized that there wasn't really a good option for 5-Pin Bowling scorekeepers on Android. Actually, I can't remember if there were any at all! So I set my sights on building the first.
+I started working on the first version of the Bowling Companion (its original name!) in January 2015. I was in my 2nd year of university, and was going to have to start applying to co-op positions for that summer. I was looking for my niche, something that I could build that would be unique, that I had a need for, and that I would be passionate about building. I had been bowling most of my life at that point, and realized that there wasn't really a good option for 5-Pin Bowling scorekeepers on Android. Actually, I can't remember if there were any at all! So I set my sights on building the first.
 
 ## The 5-Pin Bowling Companion: The Java Era
 
